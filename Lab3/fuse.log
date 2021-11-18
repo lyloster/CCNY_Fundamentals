@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v3to8dec_tb_isim_beh.exe -prj /home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v3to8dec_tb_beh.prj work.v3to8dec_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v2to4dec.vhd" into library work
+Parsing VHDL file "/home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v3to8dec.vhd" into library work
+Parsing VHDL file "/home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v3to8dec_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98336 KB
+Fuse CPU Usage: 1010 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package vcomponents
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture v2to4dec_arch of entity v2to4dec [v2to4dec_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture v3to8dec_arch of entity v3to8dec [v3to8dec_default]
+Compiling architecture structural of entity v3to8dec_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable /home/lyloster/University/2021_Fall_CCNY/CSC211/Project_03/v3to8dec_tb_isim_beh.exe
+Fuse Memory Usage: 1190056 KB
+Fuse CPU Usage: 1040 ms
+GCC CPU Usage: 400 ms
