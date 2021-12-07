@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/lyloster/University/2021_Fall_CCNY/CSC211/Project_05/combination_lock_4b_tb_isim_beh.exe" -prj "/home/lyloster/University/2021_Fall_CCNY/CSC211/Project_05/combination_lock_4b_tb_beh.prj" "work.combination_lock_4b_tb" 
